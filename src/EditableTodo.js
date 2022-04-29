@@ -17,18 +17,18 @@ function EditableTodo({ todo, update, remove }) {
 
   /** Toggle if this is being edited */
   function toggleEdit() {
-    setIsEditing(true);
+    setIsEditing((isEditing) => !isEditing);
   }
 
   /** Call remove fn passed to this. */
-  function handleDelete(id) {
-    remove(id);
+  function handleDelete() {
+    remove(todo.id);
   }
 
   /** Edit form saved; toggle isEditing and update in ancestor. */
   function handleSave(formData) {
     update(formData);
-    setIsEditing(false);
+    toggleEdit();
   }
 
   return (
@@ -46,7 +46,7 @@ function EditableTodo({ todo, update, remove }) {
             </button>
             <button
               className="EditableTodo-delBtn btn-link btn btn-sm text-danger"
-              onClick={() => handleDelete(todo.id)}
+              onClick={handleDelete}
             >
               Del
             </button>
