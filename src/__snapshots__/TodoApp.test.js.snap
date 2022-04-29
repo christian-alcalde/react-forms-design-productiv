@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <main
+    class="TodoApp"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-6"
+      >
+        <h3>
+          Todos
+        </h3>
+        <span
+          class="text-muted"
+        >
+          You have no todos.
+        </span>
+      </div>
+      <div
+        class="col-md-6"
+      >
+        <h3>
+          Top Todo
+        </h3>
+        <div
+          class="mb-4"
+        >
+          <span
+            class="text-muted"
+          >
+            No todos yet!
+          </span>
+          <br />
+        </div>
+        <section>
+          <h3
+            class="mb-3"
+          >
+            Add Nü
+          </h3>
+          <form
+            class="NewTodoForm"
+          >
+            <div
+              class="mb-3"
+            >
+              <input
+                aria-label="Title"
+                class="form-control"
+                id="newTodo-title"
+                name="title"
+                placeholder="Title"
+                value=""
+              />
+            </div>
+            <div
+              class="mb-3"
+            >
+              <textarea
+                aria-label="Description"
+                class="form-control"
+                id="newTodo-description"
+                name="description"
+                placeholder="Description"
+              />
+            </div>
+            <div
+              class="mb-3 d-flex justify-content-between"
+            >
+              <div
+                class="w-75 d-flex justify-content-between"
+              >
+                <label
+                  class="d-inline-flex"
+                  for="newTodo-priority"
+                >
+                  Priority:  
+                </label>
+                <select
+                  class="form-control form-control-sm d-inline-flex"
+                  id="newTodo-priority"
+                  name="priority"
+                >
+                  <option
+                    value="1"
+                  >
+                    Ultra-Über
+                  </option>
+                  <option
+                    value="2"
+                  >
+                    Über
+                  </option>
+                  <option
+                    value="3"
+                  >
+                    Meh
+                  </option>
+                </select>
+              </div>
+              <button
+                class="btn-primary rig btn btn-sm NewTodoForm-addBtn"
+              >
+                Gø!
+              </button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+  </main>
+</div>
+`;

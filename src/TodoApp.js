@@ -5,7 +5,6 @@ import TopTodo from "./TopTodo";
 import EditableTodoList from "./EditableTodoList";
 import TodoForm from "./TodoForm";
 
-
 /** App for managing a todo list.
  *
  * Props:
@@ -17,7 +16,7 @@ import TodoForm from "./TodoForm";
  * App -> TodoApp -> { TodoForm, EditableTodoList }
  */
 
-function TodoApp() {
+function TodoApp(initialTodos) {
   const [todos, setTodos] = useState([]);
 
   /** add a new todo to list */
@@ -55,8 +54,8 @@ function TodoApp() {
           <h3>Top Todo</h3>
           {!todos.length ? (
             <div className="mb-4">
-            <span className="text-muted">No todos yet!</span>
-            <br />
+              <span className="text-muted">No todos yet!</span>
+              <br />
             </div>
           ) : (
             <section className="mb-4">
