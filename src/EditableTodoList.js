@@ -14,13 +14,17 @@ import EditableTodo from "./EditableTodo";
 function EditableTodoList({ todos, update, remove }) {
   function renderTodoList() {
     return todos.map((todo) => (
-      <li>
+      <li key={todo.id}>
         <EditableTodo todo={todo} update={update} remove={remove} />
       </li>
     ));
   }
 
-  return <ul>{renderTodoList()}</ul>;
+  return (
+    <div>
+      <ul>{renderTodoList()}</ul>
+    </div>
+  )
 }
 
 export default EditableTodoList;
