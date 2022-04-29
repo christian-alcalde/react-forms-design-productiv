@@ -2,8 +2,6 @@ import React from "react";
 import { render, fireEvent } from "@testing-library/react";
 import EditableTodo from "./EditableTodo";
 
-EditableTodo.toggleEdit = jest.fn();
-EditableTodo.handleDelete = jest.fn();
 
 const testTodo = {
   id: "1",

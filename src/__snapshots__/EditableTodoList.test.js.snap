@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <div>
+    <ul>
+      <li>
+        <div
+          class="EditableTodo"
+        >
+          <div
+            class="mb-3"
+          >
+            <div
+              class="float-end text-sm-end"
+            >
+              <button
+                class="EditableTodo-toggle btn-link btn btn-sm"
+              >
+                Edit
+              </button>
+              <button
+                class="EditableTodo-delBtn btn-link btn btn-sm text-danger"
+              >
+                Del
+              </button>
+            </div>
+            <div
+              class="Todo"
+            >
+              <div>
+                <b>
+                  test
+                </b>
+                 
+                <small>
+                  (Priority:
+                  1
+                  )
+                </small>
+              </div>
+              <div>
+                <small>
+                  testDescription
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div
+          class="EditableTodo"
+        >
+          <div
+            class="mb-3"
+          >
+            <div
+              class="float-end text-sm-end"
+            >
+              <button
+                class="EditableTodo-toggle btn-link btn btn-sm"
+              >
+                Edit
+              </button>
+              <button
+                class="EditableTodo-delBtn btn-link btn btn-sm text-danger"
+              >
+                Del
+              </button>
+            </div>
+            <div
+              class="Todo"
+            >
+              <div>
+                <b>
+                  test2
+                </b>
+                 
+                <small>
+                  (Priority:
+                  2
+                  )
+                </small>
+              </div>
+              <div>
+                <small>
+                  testDescription2
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 2`] = `
+<div>
+  <div>
+    <ul>
+      <li>
+        <div
+          class="EditableTodo"
+        >
+          <div
+            class="mb-3"
+          >
+            <div
+              class="float-end text-sm-end"
+            >
+              <button
+                class="EditableTodo-toggle btn-link btn btn-sm"
+              >
+                Edit
+              </button>
+              <button
+                class="EditableTodo-delBtn btn-link btn btn-sm text-danger"
+              >
+                Del
+              </button>
+            </div>
+            <div
+              class="Todo"
+            >
+              <div>
+                <b>
+                  test
+                </b>
+                 
+                <small>
+                  (Priority:
+                  1
+                  )
+                </small>
+              </div>
+              <div>
+                <small>
+                  testDescription
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div
+          class="EditableTodo"
+        >
+          <div
+            class="mb-3"
+          >
+            <div
+              class="float-end text-sm-end"
+            >
+              <button
+                class="EditableTodo-toggle btn-link btn btn-sm"
+              >
+                Edit
+              </button>
+              <button
+                class="EditableTodo-delBtn btn-link btn btn-sm text-danger"
+              >
+                Del
+              </button>
+            </div>
+            <div
+              class="Todo"
+            >
+              <div>
+                <b>
+                  test2
+                </b>
+                 
+                <small>
+                  (Priority:
+                  2
+                  )
+                </small>
+              </div>
+              <div>
+                <small>
+                  testDescription2
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`two items rendered in list 1`] = `
+<div>
+  <div>
+    <ul>
+      <li>
+        <div
+          class="EditableTodo"
+        >
+          <div
+            class="mb-3"
+          >
+            <div
+              class="float-end text-sm-end"
+            >
+              <button
+                class="EditableTodo-toggle btn-link btn btn-sm"
+              >
+                Edit
+              </button>
+              <button
+                class="EditableTodo-delBtn btn-link btn btn-sm text-danger"
+              >
+                Del
+              </button>
+            </div>
+            <div
+              class="Todo"
+            >
+              <div>
+                <b>
+                  test
+                </b>
+                 
+                <small>
+                  (Priority:
+                  1
+                  )
+                </small>
+              </div>
+              <div>
+                <small>
+                  testDescription
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div
+          class="EditableTodo"
+        >
+          <div
+            class="mb-3"
+          >
+            <div
+              class="float-end text-sm-end"
+            >
+              <button
+                class="EditableTodo-toggle btn-link btn btn-sm"
+              >
+                Edit
+              </button>
+              <button
+                class="EditableTodo-delBtn btn-link btn btn-sm text-danger"
+              >
+                Del
+              </button>
+            </div>
+            <div
+              class="Todo"
+            >
+              <div>
+                <b>
+                  test2
+                </b>
+                 
+                <small>
+                  (Priority:
+                  2
+                  )
+                </small>
+              </div>
+              <div>
+                <small>
+                  testDescription2
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
