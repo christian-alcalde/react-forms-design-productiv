@@ -14,11 +14,148 @@ exports[`matches snapshot 1`] = `
         <h3>
           Todos
         </h3>
-        <span
-          class="text-muted"
-        >
-          You have no todos.
-        </span>
+        <div>
+          <ul>
+            <li
+              data-testid="laundry"
+            >
+              <div
+                class="EditableTodo"
+              >
+                <div
+                  class="mb-3"
+                >
+                  <div
+                    class="float-end text-sm-end"
+                  >
+                    <button
+                      class="EditableTodo-toggle btn-link btn btn-sm"
+                    >
+                      Edit
+                    </button>
+                    <button
+                      class="EditableTodo-delBtn btn-link btn btn-sm text-danger"
+                    >
+                      Del
+                    </button>
+                  </div>
+                  <div
+                    class="Todo"
+                  >
+                    <div>
+                      <b>
+                        laundry
+                      </b>
+                       
+                      <small>
+                        (Priority:
+                        3
+                        )
+                      </small>
+                    </div>
+                    <div>
+                      <small>
+                        testDescription
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              data-testid="water plants"
+            >
+              <div
+                class="EditableTodo"
+              >
+                <div
+                  class="mb-3"
+                >
+                  <div
+                    class="float-end text-sm-end"
+                  >
+                    <button
+                      class="EditableTodo-toggle btn-link btn btn-sm"
+                    >
+                      Edit
+                    </button>
+                    <button
+                      class="EditableTodo-delBtn btn-link btn btn-sm text-danger"
+                    >
+                      Del
+                    </button>
+                  </div>
+                  <div
+                    class="Todo"
+                  >
+                    <div>
+                      <b>
+                        water plants
+                      </b>
+                       
+                      <small>
+                        (Priority:
+                        1
+                        )
+                      </small>
+                    </div>
+                    <div>
+                      <small>
+                        testDescription2
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              data-testid="fix bike"
+            >
+              <div
+                class="EditableTodo"
+              >
+                <div
+                  class="mb-3"
+                >
+                  <div
+                    class="float-end text-sm-end"
+                  >
+                    <button
+                      class="EditableTodo-toggle btn-link btn btn-sm"
+                    >
+                      Edit
+                    </button>
+                    <button
+                      class="EditableTodo-delBtn btn-link btn btn-sm text-danger"
+                    >
+                      Del
+                    </button>
+                  </div>
+                  <div
+                    class="Todo"
+                  >
+                    <div>
+                      <b>
+                        fix bike
+                      </b>
+                       
+                      <small>
+                        (Priority:
+                        2
+                        )
+                      </small>
+                    </div>
+                    <div>
+                      <small>
+                        testDescription3
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
       <div
         class="col-md-6"
@@ -26,16 +163,30 @@ exports[`matches snapshot 1`] = `
         <h3>
           Top Todo
         </h3>
-        <div
+        <section
           class="mb-4"
         >
-          <span
-            class="text-muted"
+          <div
+            class="Todo"
           >
-            No todos yet!
-          </span>
-          <br />
-        </div>
+            <div>
+              <b>
+                water plants
+              </b>
+               
+              <small>
+                (Priority:
+                1
+                )
+              </small>
+            </div>
+            <div>
+              <small>
+                testDescription2
+              </small>
+            </div>
+          </div>
+        </section>
         <section>
           <h3
             class="mb-3"

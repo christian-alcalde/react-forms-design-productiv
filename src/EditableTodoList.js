@@ -12,10 +12,10 @@ import EditableTodo from "./EditableTodo";
  */
 
 function EditableTodoList({ todos, update, remove }) {
-  
+
   function renderTodoList() {
     return todos.map((todo) => (
-      <li key={todo.id}>
+      <li key={todo.id} data-testid={todo.title}>
         <EditableTodo todo={todo} update={update} remove={remove} />
       </li>
     ));
